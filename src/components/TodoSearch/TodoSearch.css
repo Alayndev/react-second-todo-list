@@ -1,0 +1,42 @@
+.todoSearch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.todoSearch__input {
+  background-color: white;
+  height: 64px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
+  border-style: none;
+}
+
+.todoSearch__input::placeholder {
+  color: #a5a5a5;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+}
+
+.todoSearch__input:hover {
+  outline-color: #C59698;
+}
+
+.todoSearch__input:focus {
+  outline-color: #C59698;
+}
+
+.todoSearch__input:disabled {
+  background-color: #cecece;
+}
+
+.todoSearch__input:disabled::placeholder {
+  color: #ee6d6d;
+}

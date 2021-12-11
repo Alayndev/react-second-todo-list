@@ -1,0 +1,33 @@
+.todoItem {
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
+}
+
+.Icon {
+  font-size: 25px;
+  display: block;
+  text-align: right;
+  margin: 5px;
+}
+
+.Icon-check--active {
+  color: green;
+}
+
+.Icon-delete:hover {
+  color: red;
+}
+
+.todoItem-p {
+  text-align: center;
+  margin: 0;
+}
+
+.todoItem-p--completed {
+  text-decoration: line-through;
+}

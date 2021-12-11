@@ -1,0 +1,18 @@
+.modal {
+  background-color: rgba(32, 35, 41, 0.8);
+  color: white;
+  position: fixed;
+  top: -100px;
+  bottom: -10px;
+  right: -10px;
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-height: 800px) {
+  .modal {
+    top: -250px;
+  }
+}
