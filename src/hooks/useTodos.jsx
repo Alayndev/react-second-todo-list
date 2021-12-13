@@ -9,7 +9,7 @@ export function useTodos() {
     loading,
     error,
     syncBrowsertab,
-  } = useLocalStorage("TODOS_V1", []);
+  } = useLocalStorage("TODOS_V2", []);
 
   const [search, setSearch] = useState("");
 

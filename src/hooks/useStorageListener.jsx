@@ -5,7 +5,7 @@ export function useStorageListener(syncBrowsertab) {
   const [storageChange, setStorageChange] = useState(false); 
 
   window.addEventListener("storage", (change) => {
-    if (change.key === "TODOS_V1") {
+    if (change.key === "TODOS_V2") {
       console.log(`Hubo cambios en ${change.key}`);
 
       setStorageChange(true);
